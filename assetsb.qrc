@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="bypassimg">
+    <file>assets/bypass.png</file>
+  </qresource>
+</RCC>

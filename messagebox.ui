@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>messagebox</class>
+ <widget class="QWidget" name="messagebox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>304</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Minecraft Windows 10 Trial Bypass Sucess</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+   background-color: white;
+   color: black;
+}</string>
+  </property>
+  <widget class="QLabel" name="lblimg">
+   <property name="geometry">
+    <rect>
+     <x>-80</x>
+     <y>-10</y>
+     <width>841</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="assetsb.qrc">:/bypassimg/assets/bypass.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblinfobypass">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>551</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;His bypass was a success, you can now play Minecraft Windows 10&lt;br/&gt;without time limit and with all the functions of the paid version,&lt;br/&gt;remember this only lasts until you close the game,&lt;br/&gt;after you must repeat the procedure,if it is no longer working&lt;br/&gt;go to the repository on Github and download a new version,&lt;br/&gt;if there is no version available open an issue.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btncloseall">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>230</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   background-color: #23272a;
+   border: 1px solid #23272a;
+   border-radius: 10px;
+   color: #ffffff;
+}
+
+QPushButton:hover{
+   background-color: #ffffff;
+  color: #23272a;
+}</string>
+   </property>
+   <property name="text">
+    <string>Understood, Thx :)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="assetsb.qrc"/>
+ </resources>
+ <connections/>
+</ui>
